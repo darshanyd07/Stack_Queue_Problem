@@ -1,5 +1,6 @@
-package com.bridgelabz.Stack;
-public class Node{
+package com.bridgelabz.Queue;
+
+public class Node {
 
     int data;
     Node next;
@@ -7,6 +8,7 @@ public class Node{
     public Node(int data) {
         this.data = data;
         this.next = null;
+        LinkedList.size++;
     }
 
 }
