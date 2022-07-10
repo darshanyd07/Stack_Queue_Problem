@@ -1,6 +1,4 @@
 package com.bridgelabz.Stack;
-
-
 public class Node{
 
     int data;
